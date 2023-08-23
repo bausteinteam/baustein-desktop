@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="rz2sbss01Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="vak">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ind" Type="Int32" />
+    <Property Name="zuordnung" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="bauabschnitt" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="lfdnr" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="zuständigkeit_einkauf" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="itwonr" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ve" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ansprechpartner_verantwortlicher" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="vergabeeinheit_bezeichnung" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="leistung_fertig_sr_angefordert_kfm_abschluss" Type="Int32" />
+    <Property Name="prüfvermerk_anmerkung" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="grobkosten_budget_order_anschlag_auftrag" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="art_des_öffentlichen_auftrags" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="eu_nat" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="nutzung_20_prozent_kontingent" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="vergabeart" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vergabeverfahren" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="beginn_lv_erstellung_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="beginn_lv_erstellung_at" Type="Int32" />
+    <Property Name="beginn_lv_erstellung_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="beginn_lv_erstellung_datum" Type="DateTime" Precision="3" />
+    <Property Name="übergabe_lese_lv_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="übergabe_lese_lv_at" Type="Int32" />
+    <Property Name="übergabe_lese_lv_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="übergabe_lese_lv_datum" Type="DateTime" Precision="3" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_at" Type="Int32" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_datum" Type="DateTime" Precision="3" />
+    <Property Name="vorlage_konzeption_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="vorlage_konzeption_at" Type="Int32" />
+    <Property Name="vorlage_konzeption_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="vorlage_konzeption_datum" Type="DateTime" Precision="3" />
+    <Property Name="erstellen_azv_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="erstellen_azv_at" Type="Int32" />
+    <Property Name="erstellen_azv_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="erstellen_azv_datum" Type="DateTime" Precision="3" />
+    <Property Name="übergabe_tna_und_vu_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="übergabe_tna_und_vu_at" Type="Int32" />
+    <Property Name="übergabe_tna_und_vu_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="übergabe_tna_und_vu_datum" Type="DateTime" Precision="3" />
+    <Property Name="prüfung_kfm_und_jur_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prüfung_kfm_und_jur_at" Type="Int32" />
+    <Property Name="prüfung_kfm_und_jur_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prüfung_kfm_und_jur_datum" Type="DateTime" Precision="3" />
+    <Property Name="einarbeiten_korrekturen_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="einarbeiten_korrekturen_at" Type="Int32" />
+    <Property Name="einarbeiten_korrekturen_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="einarbeiten_korrekturen_datum" Type="DateTime" Precision="3" />
+    <Property Name="mitzeichnung_azv_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mitzeichnung_azv_at" Type="Int32" />
+    <Property Name="mitzeichnung_azv_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mitzeichnung_azv_datum" Type="DateTime" Precision="3" />
+    <Property Name="summe_tage_abstimmungsprozess" Type="Int32" />
+    <Property Name="absenden_bekanntmachung_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="absenden_bekanntmachung_at" Type="Int32" />
+    <Property Name="absenden_bekanntmachung_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="absenden_bekanntmachung_datum" Type="DateTime" Precision="3" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_at" Type="Int32" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_datum" Type="DateTime" Precision="3" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_at" Type="Int32" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_datum" Type="DateTime" Precision="3" />
+    <Property Name="angebotsfrist_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotsfrist_at" Type="Int32" />
+    <Property Name="angebotsfrist_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotsfrist_datum" Type="DateTime" Precision="3" />
+    <Property Name="angebotseröffnung_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotseröffnung_at" Type="Int32" />
+    <Property Name="angebotseröffnung_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotseröffnung_datum" Type="DateTime" Precision="3" />
+    <Property Name="formale_prüfung_db_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="formale_prüfung_db_at" Type="Int32" />
+    <Property Name="formale_prüfung_db_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="formale_prüfung_db_datum" Type="DateTime" Precision="3" />
+    <Property Name="aufklärungsgespräche_verhandlung_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="aufklärungsgespräche_verhandlung_at" Type="Int32" />
+    <Property Name="aufklärungsgespräche_verhandlung_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="aufklärungsgespräche_verhandlung_datum" Type="DateTime" Precision="3" />
+    <Property Name="angebotsfrist2_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotsfrist2_at" Type="Int32" />
+    <Property Name="angebotsfrist2_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="angebotsfrist2_datum" Type="DateTime" Precision="3" />
+    <Property Name="finale_prüfung_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="finale_prüfung_at" Type="Int32" />
+    <Property Name="finale_prüfung_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="finale_prüfung_datum" Type="DateTime" Precision="3" />
+    <Property Name="versand_bieterinformation_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="versand_bieterinformation_at" Type="Int32" />
+    <Property Name="versand_bieterinformation_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="versand_bieterinformation_datum" Type="DateTime" Precision="3" />
+    <Property Name="wartefrist_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="wartefrist_at" Type="Int32" />
+    <Property Name="wartefrist_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="wartefrist_datum" Type="DateTime" Precision="3" />
+    <Property Name="einholung_unterschriften_leer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="einholung_unterschriften_at" Type="Int32" />
+    <Property Name="einholung_unterschriften_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="einholung_unterschriften_datum" Type="DateTime" Precision="3" />
+    <Property Name="summe_tage_vergabeprozess" Type="Int32" />
+    <Property Name="vorlauf_vorbereitungszeit" Type="Int32" />
+    <Property Name="leistungsbeginn_gem_gap_leer1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="leistungsbeginn_gem_gap_leer2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="leistungsbeginn_gem_gap_wt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="leistungsbeginn_gem_gap_datum" Type="DateTime" Precision="3" />
+    <Property Name="update_status" Type="Boolean" />
+    <Property Name="abstimmung_mit_einkauf" Type="Boolean" />
+    <Property Name="pb" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="azv_abstimmung" Type="Boolean" />
+    <Property Name="übergabe_vertragsunterlagen" Type="DateTime" Precision="3" />
+    <Property Name="beschaffungswert" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prüfvermerk_anmerkung_einkauf" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="vergabeeinheit_beschreibung" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="auftragnehmer" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="kke" Type="Boolean" />
+    <Property Name="grobkostenschätzung" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="sichtbar" Type="Boolean" />
+    <Property Name="ordner2" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="ezv_abstimmung" Type="Boolean" />
+    <Property Name="ordner3" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="ve_beschreibung_rz" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="bkr" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="msp_va" Type="Boolean" />
+    <Property Name="msp_lb" Type="Boolean" />
+    <Property Name="ba_zuscheidung" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="puffer" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="msp_bk" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="DB_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vak" EntityType="Self.vak" />
+  </EntityContainer>
+</Schema>

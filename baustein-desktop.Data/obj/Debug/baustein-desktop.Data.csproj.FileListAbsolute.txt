@@ -1,0 +1,10 @@
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\bin\Debug\baustein-desktop.Data.dll.config
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\bin\Debug\baustein-desktop.Data.dll
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\bin\Debug\baustein-desktop.Data.pdb
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\bin\Debug\EntityFramework.dll
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\bin\Debug\EntityFramework.xml
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\obj\Debug\baustein-desktop.Data.csproj.AssemblyReference.cache
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\obj\Debug\baustein-desktop.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\obj\Debug\baustein-desktop.Data.csproj.CopyComplete
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\obj\Debug\baustein-desktop.Data.dll
+C:\Users\Ali Mojtabaei Banaei\Desktop\Dev\baustein-desktop\baustein-desktop.Data\obj\Debug\baustein-desktop.Data.pdb

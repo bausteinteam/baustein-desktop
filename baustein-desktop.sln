@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baustein-desktop.App", "baustein-desktop.App\baustein-desktop.App.csproj", "{930130BA-3EFB-4E00-A1FD-27B6BDA44EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baustein-desktop.Data", "baustein-desktop.Data\baustein-desktop.Data.csproj", "{ECAC52DF-94C0-49B5-A755-59F2D9C291B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{930130BA-3EFB-4E00-A1FD-27B6BDA44EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930130BA-3EFB-4E00-A1FD-27B6BDA44EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930130BA-3EFB-4E00-A1FD-27B6BDA44EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930130BA-3EFB-4E00-A1FD-27B6BDA44EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAC52DF-94C0-49B5-A755-59F2D9C291B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAC52DF-94C0-49B5-A755-59F2D9C291B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAC52DF-94C0-49B5-A755-59F2D9C291B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAC52DF-94C0-49B5-A755-59F2D9C291B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C6B9A0F-253C-4093-9C9A-EA119F388C41}
+	EndGlobalSection
+EndGlobal

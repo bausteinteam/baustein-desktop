@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="rz2sbss01Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="vak">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ind" Type="int" />
+    <Property Name="zuordnung" Type="varchar" MaxLength="500" />
+    <Property Name="bauabschnitt" Type="varchar" MaxLength="500" />
+    <Property Name="lfdnr" Type="varchar" MaxLength="500" />
+    <Property Name="zuständigkeit_einkauf" Type="varchar" MaxLength="500" />
+    <Property Name="itwonr" Type="varchar" MaxLength="100" />
+    <Property Name="ve" Type="varchar" MaxLength="100" />
+    <Property Name="ansprechpartner_verantwortlicher" Type="varchar" MaxLength="500" />
+    <Property Name="vergabeeinheit_bezeichnung" Type="varchar" MaxLength="8000" />
+    <Property Name="leistung_fertig_sr_angefordert_kfm_abschluss" Type="int" />
+    <Property Name="prüfvermerk_anmerkung" Type="varchar" MaxLength="8000" />
+    <Property Name="grobkosten_budget_order_anschlag_auftrag" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="art_des_öffentlichen_auftrags" Type="varchar" MaxLength="500" />
+    <Property Name="eu_nat" Type="varchar" MaxLength="100" />
+    <Property Name="nutzung_20_prozent_kontingent" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="vergabeart" Type="varchar" MaxLength="100" />
+    <Property Name="vergabeverfahren" Type="varchar" MaxLength="100" />
+    <Property Name="beginn_lv_erstellung_leer" Type="varchar" MaxLength="50" />
+    <Property Name="beginn_lv_erstellung_at" Type="int" />
+    <Property Name="beginn_lv_erstellung_wt" Type="varchar" MaxLength="50" />
+    <Property Name="beginn_lv_erstellung_datum" Type="datetime" />
+    <Property Name="übergabe_lese_lv_leer" Type="varchar" MaxLength="50" />
+    <Property Name="übergabe_lese_lv_at" Type="int" />
+    <Property Name="übergabe_lese_lv_wt" Type="varchar" MaxLength="50" />
+    <Property Name="übergabe_lese_lv_datum" Type="datetime" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_leer" Type="varchar" MaxLength="50" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_at" Type="int" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_wt" Type="varchar" MaxLength="50" />
+    <Property Name="prüfung_lese_lv_durch_ag_bis_datum" Type="datetime" />
+    <Property Name="vorlage_konzeption_leer" Type="varchar" MaxLength="50" />
+    <Property Name="vorlage_konzeption_at" Type="int" />
+    <Property Name="vorlage_konzeption_wt" Type="varchar" MaxLength="50" />
+    <Property Name="vorlage_konzeption_datum" Type="datetime" />
+    <Property Name="erstellen_azv_leer" Type="varchar" MaxLength="50" />
+    <Property Name="erstellen_azv_at" Type="int" />
+    <Property Name="erstellen_azv_wt" Type="varchar" MaxLength="50" />
+    <Property Name="erstellen_azv_datum" Type="datetime" />
+    <Property Name="übergabe_tna_und_vu_leer" Type="varchar" MaxLength="50" />
+    <Property Name="übergabe_tna_und_vu_at" Type="int" />
+    <Property Name="übergabe_tna_und_vu_wt" Type="varchar" MaxLength="50" />
+    <Property Name="übergabe_tna_und_vu_datum" Type="datetime" />
+    <Property Name="prüfung_kfm_und_jur_leer" Type="varchar" MaxLength="50" />
+    <Property Name="prüfung_kfm_und_jur_at" Type="int" />
+    <Property Name="prüfung_kfm_und_jur_wt" Type="varchar" MaxLength="50" />
+    <Property Name="prüfung_kfm_und_jur_datum" Type="datetime" />
+    <Property Name="einarbeiten_korrekturen_leer" Type="varchar" MaxLength="50" />
+    <Property Name="einarbeiten_korrekturen_at" Type="int" />
+    <Property Name="einarbeiten_korrekturen_wt" Type="varchar" MaxLength="50" />
+    <Property Name="einarbeiten_korrekturen_datum" Type="datetime" />
+    <Property Name="mitzeichnung_azv_leer" Type="varchar" MaxLength="50" />
+    <Property Name="mitzeichnung_azv_at" Type="int" />
+    <Property Name="mitzeichnung_azv_wt" Type="varchar" MaxLength="50" />
+    <Property Name="mitzeichnung_azv_datum" Type="datetime" />
+    <Property Name="summe_tage_abstimmungsprozess" Type="int" />
+    <Property Name="absenden_bekanntmachung_leer" Type="varchar" MaxLength="50" />
+    <Property Name="absenden_bekanntmachung_at" Type="int" />
+    <Property Name="absenden_bekanntmachung_wt" Type="varchar" MaxLength="50" />
+    <Property Name="absenden_bekanntmachung_datum" Type="datetime" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_leer" Type="varchar" MaxLength="50" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_at" Type="int" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_wt" Type="varchar" MaxLength="50" />
+    <Property Name="teilnahmeanträge_bewerbungsfrist_datum" Type="datetime" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_leer" Type="varchar" MaxLength="50" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_at" Type="int" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_wt" Type="varchar" MaxLength="50" />
+    <Property Name="bewerberauswahl_teilnahmeanträge_datum" Type="datetime" />
+    <Property Name="angebotsfrist_leer" Type="varchar" MaxLength="50" />
+    <Property Name="angebotsfrist_at" Type="int" />
+    <Property Name="angebotsfrist_wt" Type="varchar" MaxLength="50" />
+    <Property Name="angebotsfrist_datum" Type="datetime" />
+    <Property Name="angebotseröffnung_leer" Type="varchar" MaxLength="50" />
+    <Property Name="angebotseröffnung_at" Type="int" />
+    <Property Name="angebotseröffnung_wt" Type="varchar" MaxLength="50" />
+    <Property Name="angebotseröffnung_datum" Type="datetime" />
+    <Property Name="formale_prüfung_db_leer" Type="varchar" MaxLength="50" />
+    <Property Name="formale_prüfung_db_at" Type="int" />
+    <Property Name="formale_prüfung_db_wt" Type="varchar" MaxLength="50" />
+    <Property Name="formale_prüfung_db_datum" Type="datetime" />
+    <Property Name="aufklärungsgespräche_verhandlung_leer" Type="varchar" MaxLength="50" />
+    <Property Name="aufklärungsgespräche_verhandlung_at" Type="int" />
+    <Property Name="aufklärungsgespräche_verhandlung_wt" Type="varchar" MaxLength="50" />
+    <Property Name="aufklärungsgespräche_verhandlung_datum" Type="datetime" />
+    <Property Name="angebotsfrist2_leer" Type="varchar" MaxLength="50" />
+    <Property Name="angebotsfrist2_at" Type="int" />
+    <Property Name="angebotsfrist2_wt" Type="varchar" MaxLength="50" />
+    <Property Name="angebotsfrist2_datum" Type="datetime" />
+    <Property Name="finale_prüfung_leer" Type="varchar" MaxLength="50" />
+    <Property Name="finale_prüfung_at" Type="int" />
+    <Property Name="finale_prüfung_wt" Type="varchar" MaxLength="50" />
+    <Property Name="finale_prüfung_datum" Type="datetime" />
+    <Property Name="versand_bieterinformation_leer" Type="varchar" MaxLength="50" />
+    <Property Name="versand_bieterinformation_at" Type="int" />
+    <Property Name="versand_bieterinformation_wt" Type="varchar" MaxLength="50" />
+    <Property Name="versand_bieterinformation_datum" Type="datetime" />
+    <Property Name="wartefrist_leer" Type="varchar" MaxLength="50" />
+    <Property Name="wartefrist_at" Type="int" />
+    <Property Name="wartefrist_wt" Type="varchar" MaxLength="50" />
+    <Property Name="wartefrist_datum" Type="datetime" />
+    <Property Name="einholung_unterschriften_leer" Type="varchar" MaxLength="50" />
+    <Property Name="einholung_unterschriften_at" Type="int" />
+    <Property Name="einholung_unterschriften_wt" Type="varchar" MaxLength="50" />
+    <Property Name="einholung_unterschriften_datum" Type="datetime" />
+    <Property Name="summe_tage_vergabeprozess" Type="int" />
+    <Property Name="vorlauf_vorbereitungszeit" Type="int" />
+    <Property Name="leistungsbeginn_gem_gap_leer1" Type="varchar" MaxLength="50" />
+    <Property Name="leistungsbeginn_gem_gap_leer2" Type="varchar" MaxLength="50" />
+    <Property Name="leistungsbeginn_gem_gap_wt" Type="varchar" MaxLength="50" />
+    <Property Name="leistungsbeginn_gem_gap_datum" Type="datetime" />
+    <Property Name="update_status" Type="bit" />
+    <Property Name="abstimmung_mit_einkauf" Type="bit" />
+    <Property Name="pb" Type="varchar" MaxLength="50" />
+    <Property Name="azv_abstimmung" Type="bit" />
+    <Property Name="übergabe_vertragsunterlagen" Type="datetime" />
+    <Property Name="beschaffungswert" Type="varchar" MaxLength="50" />
+    <Property Name="prüfvermerk_anmerkung_einkauf" Type="varchar" MaxLength="8000" />
+    <Property Name="vergabeeinheit_beschreibung" Type="varchar" MaxLength="8000" />
+    <Property Name="auftragnehmer" Type="varchar" MaxLength="1000" />
+    <Property Name="kke" Type="bit" />
+    <Property Name="grobkostenschätzung" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="sichtbar" Type="bit" />
+    <Property Name="ordner2" Type="varchar" MaxLength="8000" />
+    <Property Name="ezv_abstimmung" Type="bit" />
+    <Property Name="ordner3" Type="varchar" MaxLength="8000" />
+    <Property Name="ve_beschreibung_rz" Type="varchar" MaxLength="8000" />
+    <Property Name="bkr" Type="varchar" MaxLength="150" />
+    <Property Name="msp_va" Type="bit" />
+    <Property Name="msp_lb" Type="bit" />
+    <Property Name="ba_zuscheidung" Type="varchar" MaxLength="500" />
+    <Property Name="puffer" Type="varchar" MaxLength="500" />
+    <Property Name="msp_bk" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="rz2sbss01ModelStoreContainer">
+    <EntitySet Name="vak" EntityType="Self.vak" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
